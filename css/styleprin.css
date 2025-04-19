@@ -143,7 +143,7 @@ footer {
   }
   
   .footer-right {
-    display: flexbox;
+    display: flex;
     gap: 10px;
    
   }
@@ -168,12 +168,12 @@ footer {
   /* ======================= */
   .whatsapp-btn {
     position: fixed;
-    bottom: 10px;
+    bottom: 5px;
     right: 10px;
     background-color: #25d366;
-    padding: 5px;
+    padding: 2px;
     border-radius: 50%;
-    font-size: 10px;
+    font-size: 5px;
     color: #fff;
     z-index: 1000;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);

@@ -55,10 +55,12 @@
   transform: translate(-50%, -50%);
   color: white;
   font-size: 2rem;
-  /*background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente opcional */
+  background-color: rgba(0, 0, 0, 0.6); /* ✅ Fondo oscuro translúcido */
   padding: 10px 20px;
-  /*border-radius: 10px;*/
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Opcional: resalta el texto */
 }
+
 
 
 /* ======================= */
