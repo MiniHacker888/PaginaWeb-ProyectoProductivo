@@ -30,11 +30,36 @@
 /* ======================= */
 /*     IMAGE BANNER        */
 /* ======================= */
+.hidden {
+  display: none;
+}
+
+.image-banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
 .image-banner-img {
   width: 100%;
-  height: 500px;
-  object-fit: cover;
+  height: 600px; /* Ajusta este valor a tu gusto (antes quizás era más alto) */
+  object-fit: cover; /* Esto hace que la imagen se recorte estéticamente sin deformarse */
+  display: block;
 }
+
+.image-banner-title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  /*background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente opcional */
+  padding: 10px 20px;
+  /*border-radius: 10px;*/
+}
+
 
 /* ======================= */
 /*     ABOUT US SECTION    */
