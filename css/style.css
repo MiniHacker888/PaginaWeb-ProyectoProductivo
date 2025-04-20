@@ -15,16 +15,24 @@
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-bottom: 30px;
 }
 
 .hero .btn-primary {
-  background-color: #ff7f50;
-  color: #fff;
-  padding: 10px 20px;
+  background-color: #fd1818; /* Naranja más suave para un mejor contraste */
+  color: #fff; /* Blanco para el texto */
+  padding: 12px 30px; /* Aumentamos el espacio alrededor del texto */
   border-radius: 5px;
   text-decoration: none;
+  font-weight: bold; /* Texto en negrita */
+  font-size: 1.2rem; /* Ajuste de tamaño para mejor legibilidad */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves para efectos hover */
+}
+
+.hero .btn-primary:hover {
+  background-color: #ac4848; /* Un tono más oscuro cuando se pasa el cursor */
+  transform: scale(1.05); /* Le da un efecto de agrandamiento al hacer hover */
 }
 
 /* ======================= */
@@ -55,7 +63,7 @@
   transform: translate(-50%, -50%);
   color: white;
   font-size: 2rem;
-  background-color: rgba(0, 0, 0, 0.6); /* ✅ Fondo oscuro translúcido */
+  background-color: rgba(0, 0, 0, 0.6); /*  Fondo oscuro translúcido */
   padding: 10px 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Opcional: resalta el texto */
@@ -211,5 +219,7 @@
 
 .service-item p {
   font-size: 1.1rem;
-  color: #777;
+  color: #2c2c2c; /* Gris carbón: un tono elegante */
+  font-weight: 500; /* Un poco más grueso, no llega a bold */
+  line-height: 1.6;
 }
